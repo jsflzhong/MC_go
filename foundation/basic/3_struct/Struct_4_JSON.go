@@ -10,8 +10,10 @@ import (
 结构体和json之间的相互转换.
 内置API:
 
-	json->3_struct: jsonData, _ := json.Marshal(struct_)
-	3_struct->json: json.Unmarshal(jsonData, &struct_screenAndTouch)
+	json->3_struct:
+		jsonData, _ := json.Marshal(struct_)
+	3_struct->json:
+		json.Unmarshal(jsonData, &struct_screenAndTouch)
 
 注意:
 

@@ -207,7 +207,7 @@ func pointerInstantiate() {
 
 注意:
 
-	###与new不同,返回的变量不是指针.
+###与new不同,返回的变量不是指针.
 */
 func addressInitiate() {
 	thePointer := simple1{}
